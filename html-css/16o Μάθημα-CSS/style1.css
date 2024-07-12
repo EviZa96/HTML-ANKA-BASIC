@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    background-color: antiquewhite;
+}
+
+div.photo-menu{
+    background-color: tomato;
+    width: 200px;
+    height: 50%;
+    /* overflow: hidden; */
+    margin: 8px;
+    border: 2px solid black;
+    position: relative;
+}
+div.photo-menu img{
+    width: 100%;
+    display: none;
+    border: 2px solid black;
+    margin: -2px;
+}
+div.photo-menu:hover img{
+    display:block;
+    position: relative;
+    width: 200px;
+    /* top: 20px; */
+    /* left: 50px; */
+}

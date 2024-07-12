@@ -1,0 +1,62 @@
+h1{
+    background-color: rgb(216, 75, 24);
+    margin: 0;
+    padding: 40px;
+    color: white;
+}
+h3{
+    text-align: center;
+}
+p{
+    width:20%;
+    margin: auto;
+    
+}
+img{
+    width: 300px;
+    height: 350px;
+    border-radius: 3%;
+    position: relative;
+    top: -50px;
+    
+    
+}
+#imgcenter{
+    
+   text-align: center;
+   /* overflow: hidden; */
+      
+}
+span{
+   display: block;
+  
+}
+.span-demo-center{
+    margin-bottom: 10px;
+    width: 98%;
+    background-color:rgb(173, 163, 163);
+    padding: 3%;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.span-demo-container{
+
+   
+    width: 20%;
+    margin:auto;
+    
+}
+
+a{
+    position: absolute;
+    top: 40px;
+    left: 90%;
+    background-color: rgb(97, 97, 235);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    
+}

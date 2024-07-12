@@ -1,0 +1,48 @@
+body{
+    margin:0;
+}
+
+div{
+    height: 100px;
+    background-color: red;
+}
+#d1{
+    background-color: brown;
+    width: 200px;
+    
+}
+#d2{
+    background-color: greenyellow;
+    width: 300px;
+}
+
+span ,a {
+    background-color: blue;
+    height: 100px;
+    width: 200px;
+    color: white;
+    display:inline-block;
+}
+p{
+    background-color: rgb(155, 248, 48);
+    width: 300px;
+    height:200px;
+    /* min-width:400px; */
+    /* max-width:600px; */
+    margin: auto;  
+    border: 8px gray solid; 
+    /* overflow:visible;   */
+    /* overflow:hidden; */
+    /* overflow: scroll; */
+    overflow: auto;   
+}
+#blo{
+
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 4px solid red;
+    background-color: aquamarine;
+}
+
+

@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+}
+/* ---------1st change -----------*/
+/*
+li:hover{
+    background-color: yellowgreen;
+}
+li:first-child{
+    background-color: red;
+}
+li:not(hover)
+{
+    background-color: grey;
+}
+li:nth-child(3){
+    background-color: violet;
+} */
+h1{
+    cursor: pointer;
+}
+h1:hover{
+    background-color: rgb(165, 42, 138);
+}
+h1:active{
+    background-color: red;
+    font-style: italic;
+}
+/*-------- 2nd change----------- */
+/* div{
+    background-color: dodgerblue;
+    width: 150px;
+} 
+p{
+    background-color: tomato;
+    padding: 12px;
+    width: 150px;
+    text-align: center;
+    display: none;
+
+}
+div:hover p{
+    display: block;
+}  */
+
+/* -----------------3rd change--------------- */
+/* επιλεγω το ειδος που θελω εδω εχουμε p */
+/* div p:first-of-type{
+    background-color: aqua;
+
+}
+div p:last-of-type{
+    background-color: burlywood;
+}
+
+div p:nth-of-type(2){
+    background-color: rgb(54, 47, 47);
+}
+
+input:invalid{
+    background-color: red;
+}
+input:focus{
+    background-color: antiquewhite;
+} */
+
+p::selection{
+    background-color: crimson;
+    color: greenyellow;
+}
+
+/* span{
+    font-size: 3em;
+} */
+p::first-line{
+    color: darkred;
+    font-weight: bold;
+}
+
+p::first-letter{
+    font-size: 3em;
+}
+
+p:first-of-type::first-letter{
+    font-size: 3em;
+}
+h2+p::first-letter{
+    font-size: 10em;
+}
+
+ul{
+    background-color: dodgerblue;
+    list-style: none;
+    /* border: 2px solid black; */
+    margin: 20px;
+}
+ul li{
+    background-color: rgb(230, 205, 200);
+}
+
+/* span{
+    width: 12px;
+    height: 12px;
+    background-color: blue;
+    display: inline-block;
+    border-radius: 7px;
+    margin: 0 8px;  
+  
+}   */
+
+ul li::before{
+    content: '🎨 palette';
+    color: blue;
+}
+ul li:after{
+    content: '🎈';
+    float: right;
+}

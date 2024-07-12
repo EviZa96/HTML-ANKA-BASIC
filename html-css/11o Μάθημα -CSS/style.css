@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+h1{
+    background-color: tomato;
+    border: 1px solid;
+    margin-top: 0px;
+    padding:8px ;
+}
+
+section p{
+    background-color: aqua;
+    width: 80%;
+    height: 400px;
+    margin: 10px auto;
+    border: 1px solid;
+    padding: 10px;
+}
+section{
+
+    background-color: blue;
+    height: 300px;
+    overflow: hidden;
+    /* overflow: auto; */
+}
+/* .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+section a{
+    background-color: chartreuse;
+    border: 2px solid black;
+    padding: 4px;
+    margin :20px;
+    display: inline-block;
+    height: 40px;
+}
+section span{
+    background-color: chocolate;
+    display: inline-block;
+    margin :4px auto;
+    width: 150px;
+    max-width: 400px;
+    min-width: 300px;      /* υπερισχυει απο το Max  */
+    height: 50px;
+}
+
+section img.pic1{
+    width: 200px;
+    float: left;
+    /* margin-top: 62%; */
+    margin:8px;
+    
+}
+
+section img.pic2{
+    width: 200px;
+    float: right;
+    /* margin-top: 62%; */
+    margin:8px;
+}
+section p.pfooter{
+    clear: both;
+    border-top: 4px solid gray;
+    font-style: italic;
+    font-size: 0.8em;
+}

@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+}
+#master-header{
+    border-bottom: 4px solid black;
+    position: sticky;
+    top: 0px;
+
+}
+h1{
+    background-color: rgb(207, 155, 87);
+    text-align: center;
+    margin: 0;
+    border-bottom: 2px solid gray;
+}
+
+#menu{
+    /* background-color:rgb(230, 64, 92); */
+    height: 60px;
+    /* overflow: hidden; */
+}
+.menu_box{
+    background-color:antiquewhite;
+    height:60px;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+/* #left{
+     background-color:antiquewhite;
+    height:60px;
+    float: left;
+    width: 20%;
+    text-align: center; 
+
+} */
+#left img{
+    width: 40px;
+    height: 40px;
+
+}
+
+/* #center{
+    background-color:antiquewhite;
+    height: 60px;
+    width: 33.33%;
+    float: left; 
+} */
+
+#center .center-eso{
+    background-color: red;
+    height: 30px;
+    width: 150px;
+    margin:20px auto;
+    padding: 0;
+}
+#center input{
+    height: 30px;
+    width: 118px;
+    padding: 0;
+    border-width: 1px ;
+    margin:0 10px 0 0;  
+}
+#center a{
+    /* background-color: brown; */
+    text-decoration: none;
+    display: inline-block;
+    width: 20px;
+    margin: 0;
+    line-height: 30px;
+}
+
+/* #right{ 
+    background-color: green;
+    background-color: antiquewhite;
+    height: 60px;
+    width: 33.33%;
+    float: left;
+    text-align: center; 
+}  */
+#right a{
+    text-decoration: none;
+    background-color: darkred;
+    color: white;
+    padding: 5px 10px;
+    height: 20px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+section.main{
+    background-color: blanchedalmond;
+    border: 1px solid;
+    padding: 8px;
+    margin: 8px;
+
+}
+section.main #leftcolumn{
+    width: 50%;
+    float:left;
+    background-color: aqua;
+    background-color: antiquewhite;
+    padding: 8px;
+    box-sizing: border-box;
+}
+section.main #rightcolumn{
+    width: 50%;
+    background-color: burlywood;
+    background-color: antiquewhite;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+}
+section.main img{
+    width: 100px;
+    border: 2px solid rgb(129, 52, 52);
+    margin: 4px;
+}
+
+section.main #leftcolumn img{
+    float: left;
+}
+section.main #rightcolumn img{
+    float: right;
+}
+section.main #div_bottom{
+    background-color: blueviolet;
+    background-color: rgb(207, 155, 87);
+    clear: both;
+    font-size:8px;
+    /* font-size: 0.8em; */
+    font-style: italic;
+    border-top: 2px solid red;
+    margin: 0 -8px;
+}
+.images{
+    text-align: center;
+}
+.images img{
+    display: block;
+
+    max-width: 80%;
+}

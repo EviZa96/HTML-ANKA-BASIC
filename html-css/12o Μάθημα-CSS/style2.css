@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+}
+div{
+    background-color: tomato;
+    width: 100px;
+    height: 60px;
+    border: 1px solid;
+    margin: 10px;
+}
+.d1:hover{
+    margin-left: 20px;
+    transition: 200ms;
+}
+input:focus{
+    background-color: yellow;
+}
+
+p:hover{
+    font-style: italic;
+}
+#p1:hover{
+    background-color: yellowgreen;
+}
+#p1:active{
+    background-color: tomato;
+}
+/* h1{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    border: 2px solid black;
+    margin: 0;
+    position: fixed;
+    width: 220px;
+    height: 100px;
+    right: 0;
+} */
+a{
+    text-decoration:none;
+    background-color: antiquewhite;
+    
+
+}
+a:link{
+    color: pink;
+}
+a:visited{
+    color: blue;
+    background-color: crimson;
+}
+a:hover{
+    background-color: brown;
+    color: white;
+}
+a:active{
+    background-color: black;
+    color: yellow;
+    font-size: 1.2em;
+}
+li:hover{
+    background-color: yellow;
+}
+
+li:first-child{
+    background-color: gray;
+}
+
+li:nth-child(4)
+{
+    background-color: blue;
+}
+:nth-child(3)
+{
+    /* odd peritoi */
+    background-color: rgb(7, 8, 8);
+}
